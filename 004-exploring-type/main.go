@@ -10,7 +10,8 @@ var y = 42
 // is of TYPE string
 // and I ASSIGN the VALUE "Shaken, not stirred"
 
-var z = "Shaken, not stirred"
+var z string = "Shaken, not stirred"
+var a string = `James said, "Shaken, not stirred"`
 
 // this is a STATIC programming language
 // a VARIABLE is DECLARED to hold a VALUE of a certain TYPE
@@ -21,6 +22,8 @@ func main() {
 	fmt.Printf("%T\n", y)
 	fmt.Println(z)
 	fmt.Printf("%T\n", z)
+	fmt.Println(a)
+	fmt.Printf("%T\n", a)
 	// z = 43
 	// fmt.Println(z)
 	// fmt.Printf("%T\n", z)
